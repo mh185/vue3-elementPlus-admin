@@ -9,6 +9,14 @@ export default {
     },
     children: [
         {
+            path: '/language',
+            component: () => import('@/views/components/language.vue'),
+            meta: {
+                icon: 'iconfont icon-double-arrow-left',
+                title: 'language',
+            }
+        },
+        {
             path: '/index',
             component: () => import('../../views/components/icon.vue'),
             meta: {
