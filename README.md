@@ -28,7 +28,7 @@ vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管�
 - Get the project code
 
 ```javascript
-git clone https://github.com/mh185/vue3-element-templete.git
+git clone https://github.com/mh185/vue3-elementPlus-admin.git
 ```
 
 - Installation dependencies
