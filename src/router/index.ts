@@ -20,7 +20,7 @@ const routes = [
         children: [{
             path: '/dashboard',
             component: () => import('../views/dashboard/index.vue'),
-            meta: { title: 'dashboard', icon: 'el-icon-menu', }
+            meta: { title: 'dashboard', icon: 'iconfont icon-integral1', }
         }]
     },
     components

@@ -4,7 +4,7 @@ export default {
     component: Layout,
     redirect: '/index',
     meta: {
-        icon: 'el-icon-s-help',
+        icon: 'iconfont icon-all',
         title: 'components',
     },
     children: [
@@ -12,7 +12,7 @@ export default {
             path: '/language',
             component: () => import('@/views/components/language.vue'),
             meta: {
-                icon: 'iconfont icon-double-arrow-left',
+                icon: 'iconfont icon-Exportservices',
                 title: 'language',
             }
         },
@@ -20,15 +20,15 @@ export default {
             path: '/index',
             component: () => import('../../views/components/icon.vue'),
             meta: {
-                icon: 'el-icon-s-help',
+                icon: 'iconfont icon-atm',
                 title: 'icon',
             }
         },
         {
-            path: '/echarts',
+            path: '/table',
             component: () => import('../../views/components/list-table.vue'),
             meta: {
-                icon: 'el-icon-s-grid',
+                icon: 'iconfont icon-form',
                 title: 'table',
             }
         },
