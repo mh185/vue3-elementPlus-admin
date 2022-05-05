@@ -1,0 +1,28 @@
+{
+  "name": "vue3-element-plus",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vite build",
+    "lint:prettier": "prettier --write --loglevel warn \"src/**/*.{js,json,tsx,css,less,scss,vue,html,md}\"",
+    "lint:stylelint": "stylelint --fix \"**/*.{vue,less,postcss,css,scss}\" --cache --cache-location node_modules/.cache/stylelint/"
+  },
+  "dependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "axios": "^0.21.1",
+    "element-plus": "^1.0.2-beta.52",
+    "vite": "2.6.13",
+    "vue": "^3.0.4",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^17.0.27",
+    "@vue/compiler-sfc": "^3.0.4",
+    "node-sass": "^7.0.1",
+    "sass": "^1.50.1",
+    "sass-loader": "^12.6.0",
+    "typescript": "^4.3.2",
+    "vue-loader": "^14.2.4"
+  }
+}
