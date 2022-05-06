@@ -23,7 +23,7 @@
 
 ## vue3-elementPlus-admin [线上地址]()
 
-vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管理系统，之后会不定期往其中加入各种功能与组件。
+vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管理系统，之后会持续往其中加入各种功能与组件。
 
 - Get the project code
 
