@@ -17,13 +17,16 @@
             <template #title>{{ itemTwo.meta.title }}</template>
           </el-menu-item>
           <el-submenu v-else :index="itemTwo.path">
-            <template>{{ itemTwo.meta.title }}</template>
+            <template #title
+              ><i :class="itemTwo.meta.icon"></i
+              >{{ itemTwo.meta.title }}</template
+            >
             <el-menu-item
               v-for="(itemThree, index) in itemTwo.children"
               :key="index"
               :index="itemThree.path"
             >
-              <template #title>{{ itemThree.path }}</template>
+              <template #title>{{ itemThree.meta.title }}</template>
             </el-menu-item>
           </el-submenu>
         </template>
