@@ -2,7 +2,7 @@
  * @param val 
  * @returns 
  */
-export default function (val: any) {
+export default function (val: string): string {
     let copyipt = document.createElement("input");
     let text = val;
     copyipt.setAttribute("value", text);

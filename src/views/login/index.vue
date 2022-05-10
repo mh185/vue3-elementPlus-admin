@@ -35,7 +35,7 @@ export default {
   setup() {
     const store = useStore();
     const router = useRouter();
-    const preson = reactive({
+    const preson: any = reactive({
       ruleForm: {
         username: "admin",
         password: "123456",
