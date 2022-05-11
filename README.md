@@ -17,6 +17,15 @@
     <a href="https://vitejs.cn/">
         <img src="https://img.shields.io/badge/vite-2%2B-orange" alt="vitejs">
     </a>
+    <a href="https://echarts.apache.org/zh/index.html">
+        <img src="https://img.shields.io/badge/echarts-5%2B-brightgreen" alt="vitejs">
+    </a>
+    <a href="http://i18njs.com/">
+        <img src="https://img.shields.io/badge/i18n-9%2B-lightgrey" alt="vitejs">
+    </a>
+    <a href="https://www.sass.hk/">
+        <img src="https://img.shields.io/badge/sass-1%2B-yellow" alt="vitejs">
+    </a>
 </p>
 
 <img src="https://img-blog.csdnimg.cn/f204bf11efcb470096f01fd0a037a463.png" alt="登录页" />
