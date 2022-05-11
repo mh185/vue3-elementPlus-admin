@@ -1,13 +1,12 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-const Layout = () => import('../Layout/index.vue')
 import components from './modules/components'
 import menu from "./modules/menu"
+import excel from './modules/excel'
 import { getToken } from '../until/auth'
-/**
- * hidden 是否在导航栏显示            ture 不显示
- * meta        title: 名称    icon: 图标
- */
-const routes = [
+
+export const Layout = () => import('../Layout/index.vue')
+
+export const routes: Array<RouteRecordRaw> = [
     {
         path: '/login',
         name: 'Login',
@@ -21,14 +20,15 @@ const routes = [
         children: [{
             path: '/dashboard',
             component: () => import('../views/dashboard/index.vue'),
-            meta: { title: 'dashboard', icon: 'iconfont icon-integral1', }
+            meta: { title: 'dashboard', icon: 'el-icon-eleme', }
         }]
     },
     components,
+    excel,
     menu
 ]
 // 在 Vue-router新版本中，需要使用createRouter来创建路由
-const router = createRouter({
+export const router = createRouter({
     // 指定路由的模式,此处使用的是hash模式,createWebHistory为history模式
     history: createWebHashHistory(),
     // 路由地址

@@ -22,7 +22,7 @@ export default {
       v.className = font_family + " " + css_prefix_text + v.font_class;
     });
     function useCopeChange(val: any) {
-      let conName = `<i class="${val}"></i>`;
+      let conName = val;
       let con = useCope(conName);
       ElNotification({
         title: "复制成功",
