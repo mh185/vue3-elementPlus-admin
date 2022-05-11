@@ -28,11 +28,13 @@
     </a>
 </p>
 
-<img src="https://img-blog.csdnimg.cn/f204bf11efcb470096f01fd0a037a463.png" alt="登录页" />
+![主页](https://img-blog.csdnimg.cn/44381a3e8ca84f339cdf1eb49cb2d528.png)
 
-## vue3-elementPlus-admin [线上地址]()
 
-vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管理系统，之后会持续往其中加入各种功能与组件。
+## vue3-elementPlus-admin [线上地址](https://static-201d7d1b-d463-4f91-8946-6d0f6581a344.bspapp.com/vue3-elementPlus-admin/index.html)
+## 仓库地址 https://github.com/mh185/vue3-elementPlus-admin.git
+
+vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管理系统，会持续往其中加入各种功能与组件。
 
 - Get the project code
 
@@ -43,7 +45,7 @@ git clone https://github.com/mh185/vue3-elementPlus-admin.git
 - Installation dependencies
 
 ```javascript
-cd vue3-element-templete
+cd vue3-elementPlus-admin
 npm install
 ```
 
