@@ -32,7 +32,8 @@
 
 
 ## vue3-elementPlus-admin [线上地址](https://static-201d7d1b-d463-4f91-8946-6d0f6581a344.bspapp.com/vue3-elementPlus-admin/index.html)
-## 仓库地址 https://github.com/mh185/vue3-elementPlus-admin.git
+### Github https://github.com/mh185/vue3-elementPlus-admin.git
+### Gitee https://gitee.com/mh185/vue3-elementPlus-admin.git
 
 vue3-elementPlus-admin 是一套集成vue3全家桶与element-plus得后台管理系统，会持续往其中加入各种功能与组件。
 
