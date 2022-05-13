@@ -1,5 +1,5 @@
 /**
- * @param val 
+ * @param val 需要复制得内容
  * @returns 
  */
 export default function (val: string): string {

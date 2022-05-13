@@ -7,7 +7,12 @@
 //  按需引入 echarts
 import * as echarts from "echarts";
 import card from "./card/index.vue";
-import { onMounted } from "@vue/runtime-core";
+import {
+  onMounted,
+  onBeforeUnmount,
+  reactive,
+  toRefs,
+} from "@vue/runtime-core";
 export default {
   components: {
     card,
@@ -16,9 +21,15 @@ export default {
     onMounted(() => {
       init();
     });
+    onBeforeUnmount(() => {
+      preson.myChart.dispose();
+    });
+    const preson = reactive({
+      myChart: null as any,
+    });
+    // 基于准备好的dom，初始化echarts实例
     function init(): void {
-      // 基于准备好的dom，初始化echarts实例
-      let myChart = echarts.init(
+      preson.myChart = echarts.init(
         document.getElementById("main") as HTMLElement
       );
       // 指定图表的配置项和数据
@@ -43,8 +54,11 @@ export default {
         ],
       };
       // 使用刚指定的配置项和数据显示图表。
-      myChart.setOption(option);
+      preson.myChart.setOption(option);
     }
+    return {
+      ...toRefs(preson),
+    };
   },
 };
 </script>

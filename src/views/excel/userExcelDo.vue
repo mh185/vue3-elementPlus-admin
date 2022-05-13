@@ -44,6 +44,7 @@ export default {
     function download() {
       useExcel(preson.tableData, preson.header, preson.title);
     }
+
     return {
       ...toRefs(preson),
       download,

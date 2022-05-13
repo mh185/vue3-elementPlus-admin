@@ -5,7 +5,7 @@ import ElementPlus from 'element-plus';
 import '../node_modules/element-plus/lib/theme-chalk/index.css';
 import "./assets/font/iconfont.css"
 import "@/styles/index.scss"
-import './until/flexible.js'
+import './until/flexible.ts'
 import { key, store } from './store';
 import i18n from './locales/i18n';
 
